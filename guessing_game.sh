@@ -55,6 +55,22 @@ if [[ "$level" == "easy" ]]; then
         exit 1
 fi
 
+     echo "=== GUESS THE NUMBER · Player: Becky · Level: hard (1-1000) ==="
+
+	1) Play
+	2) My history
+	3) Leaderboard
+	4) Delete my history
+	5) Quit
+Choose: 3
+Leaderboard · hard · best game per player
+#    PLAYER  TRIES TIME  DATE
+   Stanlee|8 |1m40s|2026-10-24
+   Becky |10|2m05s |2026-10-24
+   Kerry|10|2m31s  |2026-10-25
+
+
+
 while (( $guess != $number )); do
     read -rp "please guess a number between 0 and 50 " guess
 done
